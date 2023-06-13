@@ -1,0 +1,47 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>MMGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class ="side-bar">
+        <button>Neuer Chat</button>
+        <div class="history"></div>
+        <nav>
+            <p>Made by Burim Spahiu </br>& ChatGPT</p>
+        </nav>
+    </section>
+
+    <section class ="main">
+        <img src="MMGPT_logo.svg" alt="MMGPT Logo" class="logo">
+        <h1>MMGPT MinorMatch</h1>
+        <h2>Entdecke passende Minors für dich!</h2>
+        <div id="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        <div class="top-section"> <p id="output"></p></div>
+        <div class = "bottom-section">
+            <div class="input-container">
+               <input/>
+               <div id="submit"> ↪ </div>
+               <h3>Erzähle etwas über dich: Was sind deine Interessen und Hobbys?  Wo siehst du dich in der Zukunft? Welche Ziele verfolgst du?</h3>
+            </div>
+        </div> 
+        
+        <p class="info">Dieser Chatbot wurde mit GPT-3.5-Turbo entwickelt,
+            um MMP Studierende bei der Auswahl eines passenden Minors zu unterstützen. 
+            Bitte beachte jedoch, dass die verfügbaren Minors dem Jahr 2023 (FS23 & HS23)
+            entsprechen und dass die Wahlpflichtmodule nicht berücksichtigt wurden.
+            Verlasse dich nicht ausschliesslich auf die hier gegebenen Antworten. 
+            Die hier bereitgestellten Informationen sollten als Orientierungshilfe
+            betrachtet werden, sollten aber nicht als alleinige Grundlage für 
+            die Entscheidung dienen. Die Webseite speichert keine Daten der Unterhaltungen. 
+            Es ist jedoch möglich, dass OpenAI, der Entwickler von ChatGPT, 
+            die übermittelten Daten für maximal 30 Tage zur Überwachung von Missbrauch 
+            und Fehlverhalten speichert und anschliessend löscht. <a href="https://openai.com/policies/usage-policies" target="_blank">Datenschutz Stand 23. März 2023</a>
+        </p>
+    </section>
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
